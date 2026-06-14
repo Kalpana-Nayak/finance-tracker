@@ -1,10 +1,16 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+node_modules/
+build/
+.env
+.env.local
+.DS_Store
 
 node_modules/
 .env
 finance-frontend/node_modules/
+finance-frontend/build/
 
 /node_modules
 /.pnp
